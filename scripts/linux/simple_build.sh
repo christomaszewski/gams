@@ -1477,7 +1477,7 @@ if [ $MADARA -eq 1 ] || [ $MADARA_AS_A_PREREQ -eq 1 ]; then
   
     echo "DOWNLOADING MADARA"
     echo "git clone -b master --depth 1 https://github.com/jredmondson/madara.git $MADARA_ROOT"
-    git clone -b master --depth 1 https://github.com/jredmondson/madara.git $MADARA_ROOT
+    #git clone -b master --depth 1 https://github.com/jredmondson/madara.git $MADARA_ROOT
     MADARA_REPO_RESULT=$?
   else
 
